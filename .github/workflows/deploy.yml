@@ -5,7 +5,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:  # 新增权限块
+    permissions:
       contents: read
       pages: write
       id-token: write
